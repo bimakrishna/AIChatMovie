@@ -1,0 +1,61 @@
+.element {
+  padding: 10px;
+  /* width: 100vh; */
+  /* margin: 0 auto; */
+  background-color: white;
+  border-radius: 10px;
+  animation-name: rotate;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  /* animation-iteration-count: infinite; */
+  animation-fill-mode: none;
+  animation-play-state: running;
+  margin-top: 10px;
+  box-shadow: 1px 3px 10px 2px;
+  display: flex;
+  /* justify-content: space-between; */
+  padding: 20px;
+}
+
+.titleWrapping {
+  flex: 2;
+  cursor: pointer;
+}
+
+.otherWrapping {
+  flex: 1;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.25);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.heartWrapping:hover {
+  animation: heartbeat 1s infinite;
+  fill: red;
+  color: red;
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+.heartWrapping {
+  flex: 1;
+  opacity: 0.3;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  bottom: 10px;
+  right: 10px;
+}

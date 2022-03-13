@@ -1,0 +1,148 @@
+.homeWrap {
+  height: 100vh;
+  background-color: #2d4263;
+  padding: 40px;
+}
+
+.insideWrap {
+  background-color: #ffe6bc;
+  height: 90vh;
+  border-radius: 30px;
+  -webkit-box-shadow: 1px 3px 1px #9e9e9e;
+  -moz-box-shadow: 1px 3px 1px #9e9e9e;
+  box-shadow: 1px 3px 1px #9e9e9e;
+}
+
+.searchBarWrap {
+  background-color: #c84b31;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  padding: 40px;
+}
+
+input[type="text"] {
+  width: 400px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type="text"]:focus {
+  width: 90%;
+}
+
+.inputWrap {
+  display: flex;
+}
+
+.inputBar {
+  border-top-left-radius: 20px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.valueWrap {
+  background-color: rebeccapurple;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  animation-name: rotate;
+  animation-duration: 0.7s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.titleWrapping {
+  flex: 2;
+}
+
+.otherWrapping {
+  flex: 1;
+}
+
+.otherWrappingAction {
+  flex: 1;
+  text-align: center;
+}
+
+.typeTitle {
+  display: flex;
+  padding: 20px;
+  border-style: dotted;
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(0.3);
+    background-color: red;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: orange;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: yellow;
+  }
+}
+
+.searchValue {
+  height: 40vh;
+  padding: 10px;
+  display: flex;
+}
+
+.navBar {
+  flex: 1;
+  background-color: #c84b31;
+  padding: 10px;
+  margin: 10px;
+  height: 73vh;
+  border-radius: 20px;
+}
+
+.value {
+  flex: 4;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.spinner {
+  padding: 20px;
+}
+
+.loadingPosition {
+  margin-top: 30px;
+}
+
+.imageWrapper {
+  align-items: center;
+  text-align: center;
+}
+
+.descriptionWrap {
+  display: flex;
+}
+
+.rightValue {
+  flex: 4;
+}
+
+.leftTitle {
+  flex: 1;
+}
+
+.wrappingCard {
+  height: 60vh;
+  overflow-y: auto;
+  padding: 20px;
+}

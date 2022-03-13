@@ -1,0 +1,67 @@
+/* FADE ANIMATIONS */
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 400ms;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 900ms;
+}
+
+/* SIDEBAR */
+
+.sidebar__button {
+  background: transparent;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 4px;
+  color: white;
+  transition: 0.3s linear;
+}
+
+.sidebar {
+  /* min-width: 250px; */
+  background: #c84b31;
+  padding: 20px;
+  color: white;
+  transition: 0.4s ease-in;
+  margin-right: 10px;
+  border-radius: 20px;
+  height: 70vh;
+  padding-left: 20px;
+}
+
+.sidebar-closed {
+  min-width: 40px;
+  background-color: #2d4263;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar__listItem {
+  margin: 30px 10px;
+  display: flex;
+  height: 20px;
+}
+
+.sidebar__listItem span {
+  white-space: nowrap;
+}
+
+.listButton {
+  cursor: pointer;
+}
