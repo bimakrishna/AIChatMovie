@@ -45,16 +45,16 @@ input[type="text"]:focus {
   border-radius: 10px;
   width: 100px;
   height: 100px;
-  animation-name: rotate;
+  animation-name: slide;
   animation-duration: 0.7s;
 }
 
 @keyframes rotate {
   0% {
-    transform: rotate(0);
+    transform: skewY(5deg);
   }
   100% {
-    transform: rotate(360deg);
+    transform: scaleY(1.5);
   }
 }
 
